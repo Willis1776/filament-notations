@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "willis1776/filament-notes",
+    "description": "This is a form field that allows adding and deleting of notes for historical purposes.",
     "keywords": [
-        ":vendor_name",
+        "Willis1776",
         "laravel",
-        ":package_slug"
+        "filament-notes"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/willis1776/filament-notes",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/willis1776/filament-notes/issues",
+        "source": "https://github.com/willis1776/filament-notes"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Michael Willis",
+            "email": "willis@clarity-hd.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
         "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Willis1776\\FilamentNotes\\": "src/",
+            "Willis1776\\FilamentNotes\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Willis1776\\FilamentNotes\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Willis1776\\FilamentNotes\\FilamentNotesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentNotes": "Willis1776\\FilamentNotes\\Facades\\FilamentNotes"
             }
         }
     },
