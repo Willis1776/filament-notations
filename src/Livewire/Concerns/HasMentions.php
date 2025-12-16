@@ -3,9 +3,9 @@
 namespace Willis1776\Notations\Livewire\Concerns;
 
 use Illuminate\Support\Collection;
+use Livewire\Attributes\Computed;
 use Willis1776\Notations\Contracts\Scribe;
 use Willis1776\Notations\Manager;
-use Livewire\Attributes\Computed;
 
 trait HasMentions
 {

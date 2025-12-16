@@ -2,8 +2,8 @@
 
 namespace Tests\Policies;
 
-use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Contracts\Commenter;
+use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Policies\NotePolicy;
 
 class BlockedNotePolicy extends NotePolicy

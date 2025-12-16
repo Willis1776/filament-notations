@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
-use Kirschbaum\Commentions\NoteSubscription;
 use Kirschbaum\Commentions\Config;
 use Kirschbaum\Commentions\Livewire\Notes;
+use Kirschbaum\Commentions\NoteSubscription;
 use Tests\Models\Post;
 use Tests\Models\User;
 

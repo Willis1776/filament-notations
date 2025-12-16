@@ -5,8 +5,8 @@ namespace Willis1776\Notations;
 use Carbon\Carbon;
 use Carbon\CarbonInterface;
 use DateTime;
-use Willis1776\Notations\Contracts\RenderableNote as RenderableNoteContract;
 use Livewire\Wireable;
+use Willis1776\Notations\Contracts\RenderableNote as RenderableNoteContract;
 
 class RenderableNote implements RenderableNoteContract, Wireable
 {
@@ -31,18 +31,17 @@ class RenderableNote implements RenderableNoteContract, Wireable
     protected ?string $label;
 
     public function __construct(
-        string|int      $id,
-        ?string         $authorName,
-        string          $body,
-        ?string         $authorAvatar = null,
+        string|int $id,
+        ?string $authorName,
+        string $body,
+        ?string $authorAvatar = null,
         DateTime|Carbon $createdAt = new Carbon(),
         DateTime|Carbon $updatedAt = new Carbon(),
         DateTime|Carbon $deletedAt = new Carbon(),
-        bool            $isNote = false,
-        ?string         $parsedBody = null,
-        ?string         $label = null,
-    )
-    {
+        bool $isNote = false,
+        ?string $parsedBody = null,
+        ?string $label = null,
+    ) {
         $this->id = $id;
         $this->authorName = $authorName;
         $this->body = $body;

@@ -13,7 +13,7 @@ class NoteWasReactedEvent
     use SerializesModels;
 
     public function __construct(
-        public Note            $note,
+        public Note $note,
         public NoteReaction $reaction,
     ) {}
 }

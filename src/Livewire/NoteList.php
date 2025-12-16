@@ -4,12 +4,12 @@ namespace Willis1776\Notations\Livewire;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Willis1776\Notations\Livewire\Concerns\HasMentions;
-use Willis1776\Notations\Livewire\Concerns\HasPagination;
-use Willis1776\Notations\Livewire\Concerns\HasPolling;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
 use Livewire\Component;
+use Willis1776\Notations\Livewire\Concerns\HasMentions;
+use Willis1776\Notations\Livewire\Concerns\HasPagination;
+use Willis1776\Notations\Livewire\Concerns\HasPolling;
 
 class NoteList extends Component
 {

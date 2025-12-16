@@ -1,8 +1,8 @@
 <?php
 
+use Kirschbaum\Commentions\Livewire\Note as CommentComponent;
 use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Note as CommentModel;
-use Kirschbaum\Commentions\Livewire\Note as CommentComponent;
 use Kirschbaum\Commentions\RenderableNote;
 use Tests\Models\Post;
 use Tests\Models\User;

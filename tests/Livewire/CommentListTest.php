@@ -1,7 +1,7 @@
 <?php
 
-use Kirschbaum\Commentions\Note as CommentModel;
 use Kirschbaum\Commentions\Livewire\NoteList;
+use Kirschbaum\Commentions\Note as CommentModel;
 use Kirschbaum\Commentions\RenderableNote;
 use Mockery;
 use Tests\Models\Post;

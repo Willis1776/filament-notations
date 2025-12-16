@@ -10,8 +10,8 @@ use Tests\Database\Factories\PostFactory;
 
 class Post extends Model implements Notable
 {
-    use HasNotes;
     use HasFactory;
+    use HasNotes;
 
     protected $guarded = [];
 

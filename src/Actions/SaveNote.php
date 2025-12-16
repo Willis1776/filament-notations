@@ -4,12 +4,12 @@ namespace Willis1776\Notations\Actions;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\Model;
-use Willis1776\Notations\Note;
 use Willis1776\Notations\Config;
 use Willis1776\Notations\Contracts\Scribe;
 use Willis1776\Notations\Events\NoteWasCreatedEvent;
 use Willis1776\Notations\Events\UserIsSubscribedToNotableEvent;
 use Willis1776\Notations\Events\UserWasMentionedEvent;
+use Willis1776\Notations\Note;
 
 class SaveNote
 {

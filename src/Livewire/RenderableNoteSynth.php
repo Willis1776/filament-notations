@@ -2,8 +2,8 @@
 
 namespace Willis1776\Notations\Livewire;
 
-use Willis1776\Notations\Contracts\RenderableNote;
 use Livewire\Mechanisms\HandleComponents\Synthesizers\Synth;
+use Willis1776\Notations\Contracts\RenderableNote;
 
 class RenderableNoteSynth extends Synth
 {

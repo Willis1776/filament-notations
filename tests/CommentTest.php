@@ -4,9 +4,9 @@ namespace Tests;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\Event;
-use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Events\UserIsSubscribedToNotableEvent;
 use Kirschbaum\Commentions\Events\UserWasMentionedEvent;
+use Kirschbaum\Commentions\Note;
 use Tests\Models\Post;
 use Tests\Models\User;
 

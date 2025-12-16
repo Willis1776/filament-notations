@@ -7,7 +7,9 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Gate;
-use Willis1776\Notations\Note as NoteModel;
+use Livewire\Livewire;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Willis1776\Notations\Events\UserWasMentionedEvent;
 use Willis1776\Notations\Listeners\SendUserMentionedNotification;
 use Willis1776\Notations\Livewire\Note;
@@ -15,9 +17,7 @@ use Willis1776\Notations\Livewire\NoteList;
 use Willis1776\Notations\Livewire\Notes;
 use Willis1776\Notations\Livewire\Reactions;
 use Willis1776\Notations\Livewire\SubscriptionSidebar;
-use Livewire\Livewire;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Willis1776\Notations\Note as NoteModel;
 
 class NotationsServiceProvider extends PackageServiceProvider
 {

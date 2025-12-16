@@ -3,15 +3,15 @@
 namespace Willis1776\Notations\Livewire;
 
 use Illuminate\Database\Eloquent\Model;
+use Livewire\Attributes\On;
+use Livewire\Attributes\Renderless;
+use Livewire\Component;
 use Willis1776\Notations\Actions\SaveNote;
 use Willis1776\Notations\Config;
 use Willis1776\Notations\Livewire\Concerns\HasMentions;
 use Willis1776\Notations\Livewire\Concerns\HasPagination;
 use Willis1776\Notations\Livewire\Concerns\HasPolling;
 use Willis1776\Notations\Livewire\Concerns\HasSidebar;
-use Livewire\Attributes\On;
-use Livewire\Attributes\Renderless;
-use Livewire\Component;
 
 class Notes extends Component
 {

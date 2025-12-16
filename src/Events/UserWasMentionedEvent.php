@@ -5,8 +5,8 @@ namespace Willis1776\Notations\Events;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Willis1776\Notations\Note;
 use Willis1776\Notations\Contracts\Scribe;
+use Willis1776\Notations\Note;
 
 class UserWasMentionedEvent
 {

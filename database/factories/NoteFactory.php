@@ -3,9 +3,9 @@
 namespace Willis1776\Notations\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Willis1776\Notations\Note;
 use Willis1776\Notations\Contracts\Notable;
 use Willis1776\Notations\Contracts\Scribe;
+use Willis1776\Notations\Note;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Comment>

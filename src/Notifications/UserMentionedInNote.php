@@ -7,16 +7,16 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\BroadcastMessage;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use Willis1776\Notations\Note;
 use Willis1776\Notations\Config;
 use Willis1776\Notations\Manager;
+use Willis1776\Notations\Note;
 
 class UserMentionedInNote extends Notification implements ShouldQueue
 {
     use Queueable;
 
     public function __construct(
-        protected Note  $note,
+        protected Note $note,
         protected array $channels
     ) {}
 

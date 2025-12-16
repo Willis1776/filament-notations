@@ -2,10 +2,10 @@
 
 use Illuminate\Notifications\Notification as BaseNotification;
 use Illuminate\Support\Facades\Notification as NotificationFacade;
-use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Config;
 use Kirschbaum\Commentions\Events\UserWasMentionedEvent;
 use Kirschbaum\Commentions\Listeners\SendUserMentionedNotification;
+use Kirschbaum\Commentions\Note;
 use Kirschbaum\Commentions\Notifications\UserMentionedInNote;
 use Tests\Models\Post;
 use Tests\Models\User;

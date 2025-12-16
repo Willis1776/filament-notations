@@ -4,13 +4,13 @@ namespace Willis1776\Notations\Livewire;
 
 use Filament\Notifications\Notification;
 use Illuminate\Contracts\View\View;
-use Willis1776\Notations\Note as NoteModel;
-use Willis1776\Notations\Config;
-use Willis1776\Notations\Contracts\RenderableNote;
-use Willis1776\Notations\Livewire\Concerns\HasMentions;
 use Livewire\Attributes\On;
 use Livewire\Attributes\Renderless;
 use Livewire\Component;
+use Willis1776\Notations\Config;
+use Willis1776\Notations\Contracts\RenderableNote;
+use Willis1776\Notations\Livewire\Concerns\HasMentions;
+use Willis1776\Notations\Note as NoteModel;
 
 class Note extends Component
 {

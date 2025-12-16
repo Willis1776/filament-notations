@@ -17,8 +17,8 @@ use Willis1776\Notations\Actions\HtmlToMarkdown;
 use Willis1776\Notations\Actions\ParseNote;
 use Willis1776\Notations\Actions\ToggleNoteReaction;
 use Willis1776\Notations\Contracts\Notable;
-use Willis1776\Notations\Contracts\Scribe;
 use Willis1776\Notations\Contracts\RenderableNote;
+use Willis1776\Notations\Contracts\Scribe;
 use Willis1776\Notations\Database\Factories\NoteFactory;
 
 /**

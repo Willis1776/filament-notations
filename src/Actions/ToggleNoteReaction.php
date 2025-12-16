@@ -2,11 +2,11 @@
 
 namespace Willis1776\Notations\Actions;
 
-use Willis1776\Notations\Note;
-use Willis1776\Notations\NoteReaction;
 use Willis1776\Notations\Config;
 use Willis1776\Notations\Contracts\Scribe;
 use Willis1776\Notations\Events\NoteWasReactedEvent;
+use Willis1776\Notations\Note;
+use Willis1776\Notations\NoteReaction;
 
 class ToggleNoteReaction
 {

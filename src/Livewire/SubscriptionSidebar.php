@@ -3,9 +3,9 @@
 namespace Willis1776\Notations\Livewire;
 
 use Illuminate\Database\Eloquent\Model;
-use Willis1776\Notations\Livewire\Concerns\HasSidebar;
 use Livewire\Attributes\On;
 use Livewire\Component;
+use Willis1776\Notations\Livewire\Concerns\HasSidebar;
 
 class SubscriptionSidebar extends Component
 {

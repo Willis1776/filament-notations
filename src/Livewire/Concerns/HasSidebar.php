@@ -4,10 +4,10 @@ namespace Willis1776\Notations\Livewire\Concerns;
 
 use Filament\Notifications\Notification;
 use Illuminate\Support\Collection;
-use Willis1776\Notations\Config;
-use Willis1776\Notations\Contracts\Scribe;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Renderless;
+use Willis1776\Notations\Config;
+use Willis1776\Notations\Contracts\Scribe;
 
 trait HasSidebar
 {

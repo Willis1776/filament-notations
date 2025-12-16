@@ -2,8 +2,8 @@
 
 namespace Willis1776\Notations\Policies;
 
-use Willis1776\Notations\Note;
 use Willis1776\Notations\Contracts\Scribe;
+use Willis1776\Notations\Note;
 
 class NotePolicy
 {

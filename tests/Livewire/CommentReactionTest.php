@@ -2,12 +2,12 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
-use Kirschbaum\Commentions\Note as CommentModel;
 use Kirschbaum\Commentions\Config;
 use Kirschbaum\Commentions\Database\Factories\CommentFactory;
 use Kirschbaum\Commentions\Events\NoteWasReactedEvent;
 use Kirschbaum\Commentions\Livewire\Note as CommentComponent;
 use Kirschbaum\Commentions\Livewire\Reactions;
+use Kirschbaum\Commentions\Note as CommentModel;
 use Tests\Database\Factories\PostFactory;
 use Tests\Models\Post;
 use Tests\Models\User;
